@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
     var lastDot: Boolean = false
 //comment by shivakant
     //comment by lakshay
+    //comment2
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)

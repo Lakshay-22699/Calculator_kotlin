@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     var stateError: Boolean = false
     var lastDot: Boolean = false
 //comment by shivakant
+    //comment by lakshay
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
